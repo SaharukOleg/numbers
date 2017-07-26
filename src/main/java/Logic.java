@@ -30,8 +30,10 @@ public class Logic {
 
         System.out.println("enter number ");
         int numb = sc.nextInt();
-        if(numb>18 ){
-            System.out.println("Sorry but in arrays there is not combination");
+        if(numb>18 && numb<0){
+            System.out.println("Sorry but in arrays there is not combination TRY AGAIN");
+
+
         }
 
         if (list.size() == 1) {
